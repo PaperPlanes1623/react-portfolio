@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom';
 import doctor from './doctor.png';
 import contact from './contact.png';
 import jquery from './jquery.png';
-import ContactForm from './components/ContactForm'
+import ContactForm from './components/ContactForm';
+import reservation from './reservation.png';
 
 
 class App extends Component {
@@ -49,11 +50,11 @@ class App extends Component {
     <div class="ui segment">
       <div class="ui fluid image">
       <div class="ui red ribbon label">
-        <i class="gem icon"></i> Ruby/Rails
+        <i class="gem icon"></i> ReactJs
       </div>
-      {/* const doctor = require('./doctor.png'); */}
-      <a href="https://github.com/PaperPlanes1623/rails-doctor-appointments">
-      <img src={doctor} height="200px" width="300px"/>
+      {/* const reservation = require('./reservation.png'); */}
+      <a href="https://reservation-example.netlify.com/">
+      <img src={reservation} height="100px" width="200px"/>
       </a>
     </div>
     </div>
@@ -66,7 +67,7 @@ class App extends Component {
       </div>
       {/* const contact = require('./contact.png'); */}
       <a href="https://react-contact-list.netlify.com/">
-      <img src={contact} height="200px" width="300px"/>
+      <img src={contact} height="100px" width="200px"/>
       </a>
     </div>
     </div>
@@ -79,7 +80,7 @@ class App extends Component {
       </div>
       {/* const jquery = require('./jquery.png'); */}
      <a href="https://dylansjqueryshoppingapp.netlify.com/?_ga=2.6467762.1699282357.1562719571-999286475.1562112743">
-      <img src={jquery} height="200px" width="300px"/>
+      <img src={jquery}/>
       </a>
     </div>
     </div>
