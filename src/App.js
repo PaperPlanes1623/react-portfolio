@@ -65,7 +65,7 @@ class App extends Component {
         <i class="react icon"></i> ReactJs
       </div>
       {/* const contact = require('./contact.png'); */}
-      <a href="https://github.com/PaperPlanes1623/react-contact-list">
+      <a href="https://react-contact-list.netlify.com/">
       <img src={contact} height="200px" width="300px"/>
       </a>
     </div>
@@ -78,7 +78,7 @@ class App extends Component {
         <i class="js icon"></i> jQuery
       </div>
       {/* const jquery = require('./jquery.png'); */}
-     <a href="https://github.com/PaperPlanes1623/jquery_online_purchase">
+     <a href="https://dylansjqueryshoppingapp.netlify.com/?_ga=2.6467762.1699282357.1562719571-999286475.1562112743">
       <img src={jquery} height="200px" width="300px"/>
       </a>
     </div>
