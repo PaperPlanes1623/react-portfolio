@@ -48,7 +48,7 @@ class App extends Component {
                 <div class="ui segment">
                   <div class="ui fluid image">
                     <div class="ui red ribbon label">
-                      <i class="gem icon"></i> ReactJs
+                      <i class="react icon"></i> ReactJs
       </div>
                     {/* const reservation = require('./reservation.png'); */}
                     <a href="https://reservation-example.netlify.com/">
